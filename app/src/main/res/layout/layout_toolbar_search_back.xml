@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.AppBarLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/app_bar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:layout_scrollFlags="scroll|enterAlways">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginRight="@dimen/margin_right_left"
+            android:focusable="true"
+            android:focusableInTouchMode="true">
+
+            <ImageView
+                android:id="@+id/toolbar_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/toolbar_back"/>
+
+
+            <EditText
+                android:id="@+id/toolbar_edit"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_toRightOf="@+id/toolbar_back"
+                android:layout_toLeftOf="@+id/toolbar_click"
+                android:hint="@string/toolbar_search"
+                android:imeOptions="actionSearch"
+                android:layout_marginLeft="@dimen/margin_right_left"
+                android:layout_marginRight="@dimen/margin_right_left"
+                android:background="@null"
+                android:inputType="text"
+                android:singleLine="true"
+                android:textColor="@color/font_white"
+                android:textColorHint="@color/font_gray"
+                android:textSize="@dimen/font_size_large"/>
+
+            <ImageView
+                android:id="@+id/toolbar_click"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/toolbar_search"/>
+        </RelativeLayout>
+
+    </android.support.v7.widget.Toolbar>
+</android.support.design.widget.AppBarLayout>

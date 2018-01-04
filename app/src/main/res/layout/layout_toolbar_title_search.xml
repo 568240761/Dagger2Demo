@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.AppBarLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/app_bar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:elevation="0dp">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        app:layout_scrollFlags="scroll|enterAlways">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left">
+            <ImageView
+                android:id="@+id/toolbar_location"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/location"/>
+            <TextView
+                android:id="@+id/toolbar_city"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_toRightOf="@+id/toolbar_location"
+                android:layout_centerVertical="true"
+                android:gravity="center"
+                android:textColor="@color/font_white"
+                android:text="@string/locating"
+                android:textSize="@dimen/font_size_small"/>
+        </RelativeLayout>
+        <TextView
+            android:id="@+id/toolbar_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@color/font_white"
+            android:textStyle="bold"
+            android:textSize="@dimen/font_size_larger"/>
+
+        <ImageView
+            android:id="@+id/toolbar_search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginRight="@dimen/margin_right_left"
+            android:background="@drawable/toolbar_search"/>
+    </android.support.v7.widget.Toolbar>
+</android.support.design.widget.AppBarLayout>

@@ -1,0 +1,74 @@
+{"sort":[
+  {
+    "name": "剧　情",
+    "img": "sort_plot"
+  },
+  {
+    "name": "爱　情",
+    "img": "sort_love"
+  },
+  {
+    "name": "喜　剧",
+    "img": "sort_comedy"
+  },
+  {
+    "name": "科　幻",
+    "img": "sort_future"
+  },
+  {
+    "name": "动　作",
+    "img": "sort_action"
+  },
+  {
+    "name": "悬　疑",
+    "img": "sort_suspense"
+  },
+  {
+    "name": "犯　罪",
+    "img": "sort_crime"
+  },
+  {
+    "name": "恐　怖",
+    "img": "sort_terrorist"
+  },
+  {
+    "name": "青　春",
+    "img": "sort_youth"
+  },
+  {
+    "name": "励　志",
+    "img": "sort_motivational"
+  },
+  {
+    "name": "战　争",
+    "img": "sort_war"
+  },
+  {
+    "name": "文　艺",
+    "img": "sort_art"
+  },
+  {
+    "name": "黑色幽默",
+    "img": "sort_black"
+  },
+  {
+    "name": "传　记",
+    "img": "sort_biography"
+  },
+  {
+    "name": "情　色",
+    "img": "sort_erotic"
+  },
+  {
+    "name": "暴　力",
+    "img": "sort_violence"
+  },
+  {
+    "name": "音　乐",
+    "img": "sort_music"
+  },
+  {
+    "name": "家　庭",
+    "img": "sort_family"
+  }
+]}

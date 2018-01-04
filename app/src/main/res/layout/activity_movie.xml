@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/all_activity_background"
+    android:fitsSystemWindows="true">
+
+    <include
+        layout="@layout/layout_toolbar_title_back_img"/>
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                style="@style/activity_movie_ll">
+
+                <TextView
+                    style="@style/activity_movie_ll_title_style"
+                    android:text="@string/profile"/>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/margin_top_bottom">
+
+                    <TextView
+                        android:id="@+id/movie_tv_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:textColor="@color/font_black"
+                        android:textSize="@dimen/font_size_larger"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:id="@+id/movie_tv_average"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:textColor="@color/average"
+                        android:textSize="@dimen/font_size_larger"
+                        android:textStyle="italic"/>
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/movie_tv_other_name"
+                    style="@style/activity_movie_item_tv_style"/>
+
+                <TextView
+                    android:id="@+id/movie_tv_year"
+                    style="@style/activity_movie_item_tv_style"/>
+
+                <TextView
+                    android:id="@+id/movie_tv_countries"
+                    style="@style/activity_movie_item_tv_style"/>
+
+                <TextView
+                    android:id="@+id/movie_tv_type"
+                    style="@style/activity_movie_item_tv_style"/>
+
+                <TextView
+                    android:id="@+id/movie_tv_director"
+                    style="@style/activity_movie_item_tv_style"/>
+
+                <TextView
+                    android:id="@+id/movie_tv_cast"
+                    style="@style/activity_movie_item_tv_style"
+                    android:layout_marginBottom="0dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/activity_movie_ll"
+                android:paddingBottom="0dp">
+
+                <TextView
+                    style="@style/activity_movie_ll_title_style"
+                    android:text="@string/filmmaker"/>
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/movie_recycler_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:clipToPadding="false"
+                    android:scrollbars="none"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/activity_movie_ll">
+
+                <TextView
+                    style="@style/activity_movie_ll_title_style"
+                    android:text="@string/plot"/>
+
+                <com.ly.mymovie.helper.JustifyTextView
+                    android:id="@+id/movie_tv_plot"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:lineSpacingExtra="@dimen/lines_spacing"
+                    android:textColor="@color/font_black"
+                    android:textSize="@dimen/font_size_normal"/>
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/margin_top_bottom"
+                android:background="@color/all_activity_background"/>
+        </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+</android.support.design.widget.CoordinatorLayout>

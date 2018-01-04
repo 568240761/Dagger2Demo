@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FBCF00</color>
+    <color name="colorPrimaryDark">#FBCF00</color>
+    <color name="colorAccent">#FFFFFF</color>
+
+    <color name="all_activity_background">#FAFAFA</color>
+
+    <color name="activity_main_bottom_bar_background">#FFFFFF</color>
+    <color name="activity_main_bottom_bar_text_default">#000000</color>
+    <color name="activity_main_bottom_bar_text_selected">#FBCF00</color>
+
+    <!--页面上Toolbar的标题颜色-->
+    <color name="font_white">#FFFFFF</color>
+
+    <color name="font_gray">#F2F2F2</color>
+
+    <color name="font_black">#000000</color>
+    
+    <color name="font_unselected">#F5F5F5</color>
+
+    <color name="font_link">#2277AA</color>
+
+    <!--评分的字体颜色-->
+    <color name="average">#FFAC2D</color>
+
+    <color name="card_view_background">#FFFFFF</color>
+</resources>

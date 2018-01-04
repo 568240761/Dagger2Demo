@@ -1,0 +1,58 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowDisablePreview">true</item>
+    </style>
+
+    <!--Android 4.4 以下版本，不实现沉浸样式，跟随系统样式-->
+    <style name="ImageTranslucentTheme" parent="AppTheme"/>
+
+    <style name="text_single_line_style">
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <style name="activity_movie_ll">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@android:color/white</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_marginTop">@dimen/margin_top_bottom</item>
+        <item name="android:paddingTop">@dimen/margin_top_bottom</item>
+        <item name="android:paddingBottom">@dimen/margin_top_bottom</item>
+        <item name="android:paddingLeft">@dimen/margin_right_left</item>
+        <item name="android:paddingRight">@dimen/margin_right_left</item>
+    </style>
+
+    <style name="activity_movie_ll_title_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/font_size_large</item>
+        <item name="android:layout_marginBottom">@dimen/margin_top_bottom</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/average</item>
+    </style>
+
+    <style name="activity_movie_item_tv_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">@dimen/margin_top_bottom</item>
+        <item name="android:textSize">@dimen/font_size_normal</item>
+        <item name="android:lineSpacingExtra">@dimen/line_spacing</item>
+        <item name="android:textColor">@color/font_black</item>
+    </style>
+
+    <style name="adapter_item_text_style" parent="text_single_line_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textSize">@dimen/font_size_normal</item>
+        <item name="android:textColor">@color/font_black</item>
+    </style>
+</resources>

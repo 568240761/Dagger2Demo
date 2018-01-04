@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">电影资讯</string>
+
+    <string name="activity_main_bottom_bar_item_hit">正在热映</string>
+    <string name="activity_main_bottom_bar_item_coming">即将上映</string>
+    <string name="activity_main_bottom_bar_item_sort">分类</string>
+    <string name="activity_main_bottom_bar_item_list">排行榜</string>
+    <string name="list_item_north_america">北美票房榜</string>
+    <string name="list_item_top">豆瓣电影Top250</string>
+    <string name="toolbar_search">导演、演员、电影</string>
+    <string name="director">导演：</string>
+    <string name="cast">主演：</string>
+    <string name="otherName">又名：</string>
+    <string name="year">年份：</string>
+    <string name="countries">国家：</string>
+    <string name="type">类型：</string>
+    <string name="profile">简介</string>
+    <string name="plot">剧情</string>
+    <string name="filmmaker">影人</string>
+    <string name="nothing">没有哟╮(๑•́ ₃•̀๑)╭</string>
+    <string name="loaded">没有东东可以加载了哟╮(╯▽╰)╭</string>
+    <string name="search_tag">什么都不给◔ ‸◔？</string>
+    <string name="most_acclaimed_works">最受好评的作品</string>
+    <string name="foreign_name">外文名：</string>
+    <string name="gender">性　别：</string>
+    <string name="born_place">出生地：</string>
+    <string name="work">职　业：</string>
+    <string name="locating">正在定位</string>
+    <string name="located">定位失败</string>
+</resources>

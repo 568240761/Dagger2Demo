@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/all_activity_background">
+
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/activity_main_bottom_bar">
+
+        <include
+            layout="@layout/layout_toolbar_title_search"/>
+
+        <FrameLayout
+            android:id="@+id/activity_main_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        </FrameLayout>
+    </android.support.design.widget.CoordinatorLayout>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/activity_main_bottom_bar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_alignParentBottom="true"
+        android:background="@color/activity_main_bottom_bar_background"
+        app:cardElevation="@dimen/view_elevation">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/activity_main_bottom_bar_ll_hit"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:gravity="center">
+                <ImageView
+                    android:id="@+id/activity_main_bottom_bar_iv_hit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bottom_bar_img_hit_default"/>
+                <TextView
+                    android:id="@+id/activity_main_bottom_bar_tv_hit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/activity_main_bottom_bar_item_hit"
+                    android:textColor="@color/activity_main_bottom_bar_text_default"
+                    android:textSize="@dimen/font_size_smaller"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/activity_main_bottom_bar_ll_coming"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:gravity="center">
+                <ImageView
+                    android:id="@+id/activity_main_bottom_bar_iv_coming"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bottom_bar_img_coming_default"/>
+                <TextView
+                    android:id="@+id/activity_main_bottom_bar_tv_coming"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/activity_main_bottom_bar_item_coming"
+                    android:textColor="@color/activity_main_bottom_bar_text_default"
+                    android:textSize="@dimen/font_size_smaller"/>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/activity_main_bottom_bar_ll_sort"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:gravity="center">
+                <ImageView
+                    android:id="@+id/activity_main_bottom_bar_iv_sort"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bottom_bar_img_sort_default"/>
+                <TextView
+                    android:id="@+id/activity_main_bottom_bar_tv_sort"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/activity_main_bottom_bar_item_sort"
+                    android:textColor="@color/activity_main_bottom_bar_text_default"
+                    android:textSize="@dimen/font_size_smaller"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/activity_main_bottom_bar_ll_list"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:gravity="center">
+                <ImageView
+                    android:id="@+id/activity_main_bottom_bar_iv_list"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bottom_bar_img_list_default"/>
+                <TextView
+                    android:id="@+id/activity_main_bottom_bar_tv_list"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/activity_main_bottom_bar_item_list"
+                    android:textColor="@color/activity_main_bottom_bar_text_default"
+                    android:textSize="@dimen/font_size_smaller"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>

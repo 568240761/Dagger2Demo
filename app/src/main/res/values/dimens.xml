@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_main_bottom_bar_height">60dp</dimen>
+
+    <dimen name="view_elevation">5dp</dimen>
+
+    <dimen name="app_bar_height">350dp</dimen>
+
+    <dimen name="toolbar_search_width">200dp</dimen>
+
+    <!--正常TextViw中的行间距-->
+    <dimen name="line_spacing">8dp</dimen>
+
+    <!--较大TextViw中的行间距-->
+    <dimen name="lines_spacing">12dp</dimen>
+
+    <!--最大字体；如页面上Toolbar的标题大小-->
+    <dimen name="font_size_larger">20sp</dimen>
+    <!--较大字体-->
+    <dimen name="font_size_large">18sp</dimen>
+    <!--正常字体-->
+    <dimen name="font_size_normal">16sp</dimen>
+    <!--较小字体-->
+    <dimen name="font_size_small">14sp</dimen>
+    <!--最小字体；如主页的底部栏上的字-->
+    <dimen name="font_size_smaller">12sp</dimen>
+
+    <!--所有元素距离左右边界的空隙-->
+    <dimen name="margin_right_left">15dp</dimen>
+    <!--所有元素距离上下边界的空隙-->
+    <dimen name="margin_top_bottom">10dp</dimen>
+
+    <!--间距大小-->
+    <dimen name="adapter_item_decoration">15dp</dimen>
+    <!--阴影大小-->
+    <dimen name="adapter_item_elevation">5dp</dimen>
+    <!--圆角大小-->
+    <dimen name="adapter_item_cornerRadius">8dp</dimen>
+
+    <dimen name="adapter_item_text_height">40dp</dimen>
+    <dimen name="adapter_item_text_min_height">30dp</dimen>
+    <dimen name="adapter_item_img_height">180dp</dimen>
+    <dimen name="adapter_item_img_min_height">160dp</dimen>
+    <dimen name="adapter_item_img_width">120dp</dimen>
+</resources>
